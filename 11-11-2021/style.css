@@ -1,0 +1,69 @@
+body
+{
+    background-color: black;
+}
+p
+{
+    color:gold;
+
+
+}
+h1
+{
+    text-align:center;
+    
+
+}
+
+.text1
+{
+    color:red;
+    font-size: large;
+
+
+}
+
+.headLine
+{
+    color: darkblue;    
+
+}
+
+h1:hover
+{
+    color:white;
+
+}
+.headLine2
+{
+    font-size: 90px;
+
+}
+
+div
+{
+    
+    outline-color:white;
+    outline-style: solid;
+    padding: 5px;
+}
+
+#d1 p
+{
+    font-size: 40px;
+
+}
+
+
+#d1 > p
+{
+    color:lightpink;
+    
+
+}
+
+
+div#d2:hover
+{
+    background-color: red;
+}
