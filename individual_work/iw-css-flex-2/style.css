@@ -1,0 +1,106 @@
+.container 
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(Cosmic-Gradient-14.jpg);
+    background-size:cover;
+    background-position: center;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+    width: 100%;
+    height: 12%;
+    background-color: rgba(38, 32, 62, 0.8);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.menu
+{
+    justify-content:space-around;
+
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+   
+    
+}
+
+.logo
+{
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+#logoPicture
+{
+    width: 220px;
+    height: 100%;
+    image-rendering:optimizeQuality;
+    justify-content: flex-start;
+}
+
+#submenu
+{
+    font-size: 1.1rem;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap:25px;
+    justify-self: center;
+    color:white;
+    margin-left: 10%;
+}
+
+#search
+{   
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    width: 25%;
+
+}
+
+.content
+{
+    height: 88%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#div1
+{
+    width: 50%;
+    background-color: white;
+    border-radius: 15px 15px;
+    padding: 20px 20px;
+    margin-bottom: 12vh;
+    
+    -webkit-box-shadow:0px 0px 43px 5px rgba(255,255,255,0.85);
+    -moz-box-shadow: 0px 0px 43px 5px rgba(255,255,255,0.85);
+    box-shadow: 0px 0px 43px 5px rgba(255,255,255,0.85);
+}
+
+#div2
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+    font-size: 1.1rem;
+}
