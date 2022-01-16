@@ -117,11 +117,11 @@
 {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
     align-content: stretch;
     font-size: 1.5rem;
-    flex-direction: column;
+    flex-direction: row;
     
 }
 #div2 img{
@@ -159,6 +159,20 @@ align-content: center;
     flex-direction: column;
 }
 
+.productsImage{
+
+    height: 200px !important;
+    width: 350px;
+}
+
+.productCollumn{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
 .contacts{
     display: flex;
     width: 100%;
@@ -189,5 +203,11 @@ align-content: center;
 	display:block;
     opacity: 0.8;
 
+
+}
+
+#ring{
+
+    width: 250px;
 
 }
