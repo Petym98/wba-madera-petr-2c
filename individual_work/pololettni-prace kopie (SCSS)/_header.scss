@@ -1,0 +1,81 @@
+@mixin centerFlex
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+
+.header
+{
+    width: 100%;
+    height: 10%;
+    background-color: rgba(38, 32, 62, 0.8);
+    display: flex;
+    justify-content:center;
+    
+
+    .menu
+    {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+    .logo
+    {
+        width: 15%;
+        height: 100%;
+        align-items: center;
+        justify-items: flex-start;
+
+        #logoPicture
+        {
+     width: 150px;
+     height: 100%;
+     image-rendering:optimizeQuality;
+        justify-content: flex-start;
+        }
+    }
+
+    #submenu{
+
+        font-size: 1.6rem;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap:25px;
+    justify-self: right;
+    color:white;
+    text-decoration: none;
+
+        a
+        {
+            text-decoration: none;
+        }
+
+        a:hover, a:visited, a:link, a:active
+    {
+        text-decoration: none;
+         color:whitesmoke;
+
+    }
+    .selected {
+    
+        a:visited, a:hover{
+        color:#f71717 !important;
+    }
+        }
+    }
+    .filler{
+
+        @include centerFlex();
+        width: 100%;
+        height: 100%;
+    }
+
+    }
+}
