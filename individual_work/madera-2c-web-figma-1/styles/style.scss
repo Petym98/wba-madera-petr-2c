@@ -1,5 +1,31 @@
 $light-gray:#CBC1B1;
 $dark-gray:#7C7474;
+$white:#F8F7EC;
+$button-color: rgba(248, 247, 236, 0.3);
 
+@mixin full-center-align
+{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
 
-@import url(_header.scss);
+.index-container
+{
+    @include full-center-align();
+    background-color: #F8F7EC80;
+}   
+h1
+{
+    font-size: 1.25rem;
+
+}
+h2
+{
+    font-size: 0.688;
+}
+
+@import "mobile-header";
+@import "mobile-index-content";
+@import "footer";

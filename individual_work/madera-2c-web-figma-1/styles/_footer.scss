@@ -1,0 +1,16 @@
+.footer
+{
+display: flex;
+background-color: $light-gray;
+width: 100%;
+justify-content: space-between;
+flex-direction: row;
+@include full-center-align;
+text-align: center;
+ h2
+ {
+
+
+
+ }
+}

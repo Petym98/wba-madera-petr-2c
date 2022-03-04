@@ -1,0 +1,43 @@
+.index-container
+{
+    background-color: rgba(248, 247, 236, 0.5);
+}
+
+.gray-box
+{
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    background-color: $dark-gray;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    @include full-center-align;
+    
+    .gray-text-box
+    {
+        margin: 5%;
+        font-size: 0.813rem;
+
+    }
+
+    .gray-button
+    {   
+        background-color:$button-color ;
+        color: black;
+        margin-bottom: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    
+        h2
+        {
+            font-size: .688;
+
+        }
+    }
+
+
+
+
+}
