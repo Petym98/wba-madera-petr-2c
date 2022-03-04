@@ -11,6 +11,20 @@
   background-color: #F8F7EC80;
 }
 
+h1, h2, h3 {
+  font-family: Lato;
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 h1 {
   font-size: 1.25rem;
 }
@@ -25,6 +39,7 @@ h2 {
   display: flex;
   background-color: #CBC1B1;
   width: 100%;
+  height: 10vh;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -39,11 +54,11 @@ h2 {
 
 .header #logo {
   margin-left: 8%;
-  height: 50%;
+  height: 100%;
 }
 
 .header #burger {
-  height: 90%;
+  height: 50%;
   margin-right: 15%;
 }
 
@@ -73,6 +88,7 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   justify-items: center;
+  padding: 5%;
 }
 
 .gray-box .gray-text-box {
@@ -98,13 +114,14 @@ h2 {
   display: flex;
   background-color: #CBC1B1;
   width: 100%;
+  height: 10vh;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -115,5 +132,9 @@ h2 {
           justify-content: center;
   justify-items: center;
   text-align: center;
+}
+
+.footer h2 {
+  font-size: 0.75rem;
 }
 /*# sourceMappingURL=style.css.map */
