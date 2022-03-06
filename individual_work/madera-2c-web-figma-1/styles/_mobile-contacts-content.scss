@@ -1,0 +1,18 @@
+
+.contact-container
+    {
+        display: flex;
+        @include full-center-align;
+        width: 100%;
+        flex-direction: column;
+       
+
+    }    
+    .contact-info
+    {
+        display: flex;
+        background-color:#7C747430 ;
+        width: 80%;
+        margin: 10%;
+        font-size: 0.688rem;
+    }

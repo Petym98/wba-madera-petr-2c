@@ -1,5 +1,5 @@
 $light-gray:#CBC1B1;
-$dark-gray:#7C7474;
+$dark-gray:#7C747430;
 $white:#F8F7EC;
 $button-color: rgba(248, 247, 236, 0.3);
 
@@ -11,7 +11,7 @@ $button-color: rgba(248, 247, 236, 0.3);
     justify-items: center;
 }
 
-.index-container
+.container
 {
     @include full-center-align();
     background-color: #F8F7EC80;
@@ -40,15 +40,20 @@ h2
     font-size: 0.688rem;
 }
 
-@media screen and(max-width: 480px){
+@media screen and(max-width: 480px)
+{
 @import "mobile-header";
 @import "mobile-index-content";
 @import "footer";
+@import "mobile-contacts-content";
 }
 
-@media screen and(min-width: 481px){
+@media screen and(min-width: 481px)
+{
     @import "mobile-header";
     @import "mobile-index-content";
     @import "footer";
+    @import "mobile-contacts-content";
+
     }
     
