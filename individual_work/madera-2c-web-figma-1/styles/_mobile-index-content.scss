@@ -1,19 +1,26 @@
 .index-container
 {
+    
     background-color: rgba(248, 247, 236, 0.5);
 
     .gray-button-2
-{   
-    background-color:$button-color ;
-    $white:#F8F7EC;
-    margin-bottom: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+{
+
+    display: flex;
+    width: 40%;
+    background-color: #7C7474;
+    color: $white;
+    margin-bottom: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
     padding-top: 2%;
+    @include full-center-align;
     h2
     {
+        @include full-center-align;
         font-size: .688;
-
+        
     }
 }
 }
@@ -21,7 +28,7 @@
 .gray-button
 {   
     background-color:$button-color ;
-    $white:#F8F7EC;
+    color: $white;
     margin-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
@@ -31,6 +38,7 @@
         font-size: .688;
 
     }
+    
 }
 
 .gray-box

@@ -15,6 +15,8 @@ $button-color: rgba(248, 247, 236, 0.3);
 {
     @include full-center-align();
     background-color: #F8F7EC80;
+    display: flex;
+    flex-direction: column;
 }   
 h1, h2, h3
 {
