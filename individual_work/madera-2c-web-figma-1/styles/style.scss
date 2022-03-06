@@ -35,9 +35,18 @@ h1
 }
 h2
 {
-    font-size: 0.688;
+    font-size: 0.688rem;
 }
 
+@media screen and(max-width: 480px){
 @import "mobile-header";
 @import "mobile-index-content";
 @import "footer";
+}
+
+@media screen and(min-width: 481px){
+    @import "mobile-header";
+    @import "mobile-index-content";
+    @import "footer";
+    }
+    

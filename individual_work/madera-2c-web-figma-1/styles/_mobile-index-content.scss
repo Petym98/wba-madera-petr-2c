@@ -37,12 +37,51 @@
         }
     }
 
-    .index-second-half
-    {
-        
+  
 
+}
+
+
+
+.index-second-half
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    
+
+    
+
+    .headline-3
+    {
+        display: flex;
+        width: 100%;
+        font-size:0.688rem;
+        @include full-center-align;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .offer-container
+    {
+        display: flex;
+        flex-direction: row;
+
+
+        .image-column
+        {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+        }
+        
+        .text-column
+        {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+        }
 
     }
-
-
 }
