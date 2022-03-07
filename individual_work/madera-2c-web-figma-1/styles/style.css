@@ -16,6 +16,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 100%;
 }
 
 h1, h2, h3 {
@@ -81,7 +82,7 @@ h2 {
     width: 40%;
     background-color: #7C7474;
     color: #F8F7EC;
-    margin-bottom: 4%;
+    margin-bottom: 20%;
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
@@ -250,6 +251,30 @@ h2 {
   .footer h2 {
     font-size: 0.75rem;
   }
+  #contact-headline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+  }
   .contact-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -269,14 +294,24 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .contact-container :nth-child(5) {
+    padding-bottom: 30%;
+    margin-bottom: 15%;
+  }
   .contact-info {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     background-color: #7C747430;
     width: 80%;
-    margin: 10%;
+    margin: 3%;
     font-size: 0.688rem;
+    padding: 2%;
+    padding-right: 50%;
   }
 }
 
@@ -321,7 +356,7 @@ h2 {
     width: 40%;
     background-color: #7C7474;
     color: #F8F7EC;
-    margin-bottom: 4%;
+    margin-bottom: 20%;
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
@@ -490,6 +525,30 @@ h2 {
   .footer h2 {
     font-size: 0.75rem;
   }
+  #contact-headline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+  }
   .contact-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -509,14 +568,24 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .contact-container :nth-child(5) {
+    padding-bottom: 30%;
+    margin-bottom: 15%;
+  }
   .contact-info {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     background-color: #7C747430;
     width: 80%;
-    margin: 10%;
+    margin: 3%;
     font-size: 0.688rem;
+    padding: 2%;
+    padding-right: 50%;
   }
 }
 /*# sourceMappingURL=style.css.map */
