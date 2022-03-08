@@ -12,7 +12,14 @@ align-items: center;
 
 .expanded-menu
 {
-   display: none;
+   display: flex;
+   a
+   {
+      h3
+      {
+         text-decoration: none;
+      }
+   }
 }
 
 .logo
@@ -27,7 +34,5 @@ align-items: center;
  
  .burger
  {
-    margin-top: 5%;
-    height: 50%;
-    margin-right: 15%;
+   display: none;
  }
