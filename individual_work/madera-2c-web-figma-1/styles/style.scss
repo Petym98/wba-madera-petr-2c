@@ -21,7 +21,7 @@ $button-color: rgba(248, 247, 236, 0.3);
 }   
 h1, h2, h3
 {
-font-family: Lato;
+font-family: 'Lato', sans-serif;
 font-style: normal;
 display: flex;
 align-items: center;
@@ -57,6 +57,6 @@ h2
     @import "pc-index";
     @import "footer";
     @import "mobile-contacts-content";
-
+    @import "pc-info";
 }
     
