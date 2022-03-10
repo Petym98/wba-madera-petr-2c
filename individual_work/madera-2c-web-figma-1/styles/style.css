@@ -597,7 +597,7 @@ h2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-image: url("/images/hero image.png");
+    background-image: url(../images/hero-image.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
